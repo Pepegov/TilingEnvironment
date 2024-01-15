@@ -9,8 +9,8 @@ IsRoot(){
 
 HelloScreen(){
     echo '==========================================================='
-    echo 'Brueder install script'
-    echo 'AUTHOR: https://github.com/BruederYAR'
+    echo 'Pepegov install script'
+    echo 'AUTHOR: https://github.com/Pepegov'
     echo '==========================================================='
 }
 
@@ -51,8 +51,8 @@ InstallBetterlockscreen(){
 
 CopyConfigs() {
     mkdir -p ~/.config
-    cp -rf ./Configs/.config/. ~/.config
-    cp -rf ./Configs/.xinitrc ~/
+    cp -rf ./dotfiles/.config/. ~/.config
+    cp -rf ./dotfiles/.xinitrc ~/
 }
 
 MakeExecutable() {
